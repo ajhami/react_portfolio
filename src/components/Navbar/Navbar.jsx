@@ -18,7 +18,7 @@ function Navbar() {
             </div>
             <div className="col-md-6">
                 <a className="nav_selects" href="/contact">
-                    Resume
+                    Contact
                 </a>
                 <div className="nav_splits">
                     |
@@ -29,8 +29,8 @@ function Navbar() {
                 <div className="nav_splits">
                     |
                 </div>
-                <a className="nav_selects" href="/contact">
-                    Contact
+                <a className="nav_selects" href={process.env.PUBLIC_URL + "/assets/images/resume.pdf"}>
+                    Resume
                 </a>
             </div>
             {/* </div> */}
