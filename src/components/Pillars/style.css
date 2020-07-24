@@ -1,0 +1,63 @@
+.home_pillars {
+    height: 20.0rem;
+    border: none;
+    /* background-color: aquamarine; */
+}
+
+#about_box {
+    background-image: url(images/about_distant_shot_sm.jpg);
+}
+
+#projects_box {
+    background-image: url(images/coding_sm.jpg);
+}
+
+#contact_box {
+    background-image: url(images/contact_sm.jpg);
+}
+
+.home_pillar_box {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px)
+            opacity(0.5)
+            grayscale(100%);
+}
+
+.home_pillar_box:hover {
+    filter: none;
+}
+
+
+@media (min-width: 768px) {
+    .home_pillars {
+        height: 45.0rem;
+        /* background-color: aquamarine; */
+        border: 10px #1d1c1c solid;
+    }
+
+    #about_box {
+        background-image: url(images/about_distant_shot_lg.jpg);
+    }
+
+    #projects_box {
+        background-image: url(images/coding_lg.jpg);
+    }
+    
+    #contact_box {
+        background-image: url(images/contact_new_lg.jpg);
+    }
+
+    .home_pillar_box {
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(1px)
+                opacity(0.5)
+                grayscale(100%);
+    }
+}

@@ -32,6 +32,12 @@ function Navbar() {
                 <a className="nav_selects" href={process.env.PUBLIC_URL + "/assets/images/resume.pdf"}>
                     Resume
                 </a>
+                <div className="nav_splits">
+                    |
+                </div>
+                <a className="nav_selects" href="/home">
+                    Home
+                </a>
             </div>
             {/* </div> */}
         </nav>
