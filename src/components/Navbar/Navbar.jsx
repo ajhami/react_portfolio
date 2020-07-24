@@ -4,9 +4,13 @@ import "./style.css";
 function Navbar() {
     return (
         <nav className="navbar row">
-            {/* <div className=""> */}
             <div className="col-md-6 nav_brand">
-                <img className="ajh" src={process.env.PUBLIC_URL + "/assets/images/logo/ajh_logo_192x192.png"} alt="ajh_logo" />
+                <img
+                    className="ajh"
+                    src={process.env.PUBLIC_URL + "/assets/images/logo/ajh_logo_192x192.png"}
+                    alt="ajh_logo"
+                    onClick={() => window.location.href="/"}
+                />
                 <h2 className="nav_name">
                     <strong>
                         Alexander James Hamilton
@@ -39,7 +43,6 @@ function Navbar() {
                     Home
                 </a>
             </div>
-            {/* </div> */}
         </nav>
     )
 };

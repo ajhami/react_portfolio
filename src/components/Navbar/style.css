@@ -43,19 +43,13 @@
         margin-left: 0.6rem;
         margin-bottom: 0;
     }
-    
-    .nav_selects, .nav_splits {
-        color: #f3f3f3ec;
-        display: block;
-        float: right;
-        margin-right: 0.7rem;
-        font-size: 1.5rem;
-    }
-    
+
     .nav_selects:hover {
         color: #550988;
     }
+
 }
+
 
 @media (min-width: 1120px) {
     .nav_name {
@@ -63,5 +57,13 @@
         float: left;
         justify-self: center;
         margin: 3.5rem 0 0 1.0rem;
-    }    
+    }
+    
+    .nav_selects, .nav_splits {
+        color: #f3f3f3ec;
+        display: block;
+        float: right;
+        margin-right: 0.7rem;
+        font-size: 1.6rem;
+    }
 }

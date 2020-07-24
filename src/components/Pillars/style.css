@@ -31,6 +31,16 @@
     filter: none;
 }
 
+.topic_title {
+    color: #f3f3f3ec;
+    background-color: #541177;
+    font-size: 1.6rem;
+    font-style: unset;
+    padding: 1.0rem 1.0rem 1.0rem 0.75rem;
+    position: relative;
+    bottom: 15.0rem;
+}
+
 
 @media (min-width: 768px) {
     .home_pillars {
@@ -60,4 +70,11 @@
                 opacity(0.5)
                 grayscale(100%);
     }
+    
+    .topic_title {
+        position: relative;
+        bottom: 35.0rem;
+        right: 0.1rem;
+    }
+
 }
