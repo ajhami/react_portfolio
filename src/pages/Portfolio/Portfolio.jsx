@@ -19,7 +19,8 @@ function Portfolio() {
                         description={project.description}
                         repoLink={project.repoLink}
                         appLink={project.appLink}
-                        appImage={project.appLink}
+                        appImage={project.appImage}
+                        idTag={project.idTag}
                     />
                 }
                 else {
@@ -29,7 +30,8 @@ function Portfolio() {
                     description={project.description}
                     repoLink={project.repoLink}
                     appLink={project.appLink}
-                    appImage={project.appLink}
+                    appImage={project.appImage}
+                    idTag={project.idTag}
                 />
                 }
             })}

@@ -1,0 +1,12 @@
+.img_section {
+    height: 20.0rem;
+}
+
+.project_img {
+    width: 100%;
+    height: 100%;
+}
+
+#readme_img {
+    background-image: url(images/readme_preview.PNG);
+}

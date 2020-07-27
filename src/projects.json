@@ -5,7 +5,8 @@
         "description": "Pantree is a web application designed to optimize and simplify recipe searching and meal planning for individuals and families. Pantree specifically helps users cook with the food they have in their home, organizing their pantry items by expiration date and finding recipe results from the items in the home.",
         "repoLink": "https://github.com/brentp24/pantry/tree/master/controllers",
         "appLink": "https://polar-reaches-63897.herokuapp.com/",
-        "appImage": "/images/pantree_preview_lg.png"
+        "appImage": "pantree_preview_lg.png",
+        "idTag": "pantree_img"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "description": "README Generator is a node.js application used to create quick, simple README.md file for your projects. The application was originally built to run in a node environment. I am currently developing a front end website for the application to make it more accessable and appealing to developers.",
         "repoLink": "https://github.com/ajhami/README_generator",
         "appLink": "#",
-        "appImage": "/images/readme_preview.PNG"
+        "appImage": "readme_preview.PNG",
+        "idTag": "readme_img"
     },
     {
         "id": 3,
@@ -21,6 +23,7 @@
         "description": "Celebrity Twin is an entertainment application where one can upload an image of themself and discover their celebrity doppelgänger! This application demostrates the implentation of basic front-end web design, including html/css, jQuery, and AJAX.",
         "repoLink": "https://github.com/ajhami/celebrity_twin",
         "appLink": "https://ajhami.github.io/celebrity_twin/",
-        "appImage": "/images/celeb_preview.PNG"
+        "appImage": "celeb_preview.PNG",
+        "idTag": "celbrity_twin_img"
     }
 ]

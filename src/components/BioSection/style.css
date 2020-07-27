@@ -1,0 +1,12 @@
+.bio_photo {
+    height: 25.0rem;
+    width: 100%;
+}
+
+.bio_text {
+    font-size: 1.5rem;
+}
+
+.tab {
+    margin-left: 3.0rem;
+}

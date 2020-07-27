@@ -13,21 +13,27 @@ function ProjectRowRight(props) {
                 </p>
                 <button
                     className="app_btn"
-                    onClick={() => window.location.href=`${props.appLink}`}
+                    onClick={() => window.location.href = `${props.appLink}`}
                 >
-                    View Project
+                    <i className="fa fa-eye portfolio_btns"></i>
                 </button>
                 <button
                     className="repo_btn"
-                    onClick={() => window.location.href=`${props.repoLink}`}
+                    onClick={() => window.location.href = `${props.repoLink}`}
                 >
-                    View Repo
+                    <i className="fa fa-github portfolio_btns"></i>
                 </button>
             </div>
             <div className="col-md-4 img_section">
-                <div
+                {/* <div
                     className="project_img"
-                    style={{ backgroundImage: `url(${props.appImage})` }}                ></div>
+                    id={props.idTag}
+                ></div> */}
+                <img
+                    className="project_img"
+                    src={process.env.PUBLIC_URL + "/assets/images/" + props.appImage}
+                    alt={props.name}
+                />
                 <span className="image_label">
                     {props.title}
                 </span>

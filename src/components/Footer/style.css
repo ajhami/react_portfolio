@@ -1,0 +1,28 @@
+.footer_hr {
+    color: #f3f3f3ec;
+    margin-top: 6.0rem;
+    width: 60%;
+}
+
+.footer_row {
+    /* text-align: center; */
+    background-color: #0e0e0e;
+}
+
+.social_media_buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+}
+
+.fa_footer {
+    color: #f3f3f3ec;
+    margin: 0 2.0rem;
+    font-size: 3.0rem;
+}
+
+.fa:hover {
+    color: #541177;
+}
