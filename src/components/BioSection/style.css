@@ -10,3 +10,32 @@
 .tab {
     margin-left: 3.0rem;
 }
+
+.res_btn_section {
+    margin-top: 1.5rem;
+    float: right;
+}
+
+.resume_btn {
+    background-color: #541177;
+    color: #f3f3f3ec;
+    border-radius: 20px;
+    border: #3a0058;
+    margin-right: 1.0rem;
+}
+
+.resume_atag {
+    margin: 0.5rem 0.5rem;
+    color: #f3f3f3ec;
+    font-size: 1.6rem;
+}
+
+.resume_btn:hover {
+    background-color: #460a66e5;
+}
+
+.resume_atag:hover {
+    color: #ffffff;
+    font-style: none;
+    text-decoration: none;
+}

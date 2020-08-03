@@ -1,5 +1,8 @@
 import React from "react";
+// import { useHistory } from "react-router-dom";
+// import { Link } from "react-router-dom"
 import "./style.css";
+
 
 function BioSection(props) {
     return (
@@ -10,15 +13,32 @@ function BioSection(props) {
                 </div>
                 <div className="col-md-8">
                     <p className="bio_text">
-                        <span classNane="tab" />
+                        <span className="tab" />
                         {props.bioP1}
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         <span className="tab" />
                         {props.bioP2}
-                        <br/>
-                        <button className="resume_btn"><a href={process.env.PUBLIC_URL + "/assets/images/resume.pdf"}>View Resume</a></button>
+                        <br />
                     </p>
+                    <div className="row res_btn_section">
+                        <button className="resume_btn">
+                            <a
+                                className="resume_atag"
+                                href={process.env.PUBLIC_URL + "/assets/images/resume.pdf"}
+                            >
+                                View Resume
+                        </a>
+                        </button>
+                        <button className="resume_btn">
+                            <a
+                                className="resume_atag"
+                                href="/home"
+                            >
+                                Return to Home
+                        </a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
