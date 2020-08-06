@@ -26,3 +26,9 @@
 .fa:hover {
     color: #541177;
 }
+
+@media(max-width: 400px) {
+    .fa_footer{
+        margin: 0 1.0rem;   
+    }
+}

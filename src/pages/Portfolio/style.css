@@ -1,0 +1,21 @@
+.sep_hr {
+    display: none;
+}
+
+.footer_hr {
+    background-color: #f3f3f3ec;
+    height: 1px;
+    margin-top: 4.0rem;
+    margin-bottom: 4.0rem;
+    width: 60%;
+}
+
+@media (min-width: 550px) {
+    .sep_hr {
+        background-color: #f3f3f3ec;
+        display: block;
+        height: 1px;
+        margin: 4.0rem auto;
+        width: 100%;
+    }
+}

@@ -12,28 +12,81 @@ function Portfolio() {
     return (
         <div>
             {projects.map(project => {
-                if(project.id % 2 === 1) {
-                    return <ProjectRowLeft 
-                        key={project.id}
-                        title={project.title}
-                        description={project.description}
-                        repoLink={project.repoLink}
-                        appLink={project.appLink}
-                        appImage={project.appImage}
-                        idTag={project.idTag}
-                    />
+
+                // Adding appropriate hr along bottom
+                if (project.id !== 3) {
+
+                    // Alternating between image/description layouts
+                    if (project.id % 2 === 1) {
+                        return (
+                            <div>
+                                <ProjectRowLeft
+                                    key={project.id}
+                                    title={project.title}
+                                    description={project.description}
+                                    repoLink={project.repoLink}
+                                    appLink={project.appLink}
+                                    appImage={project.appImage}
+                                    idTag={project.idTag}
+                                />
+                                <hr className="sep_hr" />
+                            </div>
+                        )
+                    }
+                    else {
+                        return (
+                            <div>
+                                <ProjectRowRight
+                                    key={project.id}
+                                    title={project.title}
+                                    description={project.description}
+                                    repoLink={project.repoLink}
+                                    appLink={project.appLink}
+                                    appImage={project.appImage}
+                                    idTag={project.idTag}
+                                />
+                                <hr className="sep_hr" />
+                            </div>
+                        )
+                    }
+
                 }
+
                 else {
-                    return <ProjectRowRight 
-                    key={project.id}
-                    title={project.title}
-                    description={project.description}
-                    repoLink={project.repoLink}
-                    appLink={project.appLink}
-                    appImage={project.appImage}
-                    idTag={project.idTag}
-                />
+                    if (project.id % 2 === 1) {
+                        return (
+                            <div>
+                                <ProjectRowLeft
+                                    key={project.id}
+                                    title={project.title}
+                                    description={project.description}
+                                    repoLink={project.repoLink}
+                                    appLink={project.appLink}
+                                    appImage={project.appImage}
+                                    idTag={project.idTag}
+                                />
+                                <hr className="footer_hr" />
+                            </div>
+                        )
+                    }
+                    else {
+                        return (
+                            <div>
+                                <ProjectRowRight
+                                    key={project.id}
+                                    title={project.title}
+                                    description={project.description}
+                                    repoLink={project.repoLink}
+                                    appLink={project.appLink}
+                                    appImage={project.appImage}
+                                    idTag={project.idTag}
+                                />
+                                <hr className="footer_hr" />
+                            </div>
+                        )
+                    }
                 }
+
             })}
         </div>
     )

@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
     return (
         <div>
-            <hr className="footer_hr" />
+            {/* <hr className="footer_hr" /> */}
                 <section className="row footer_row">
                     <div className="social_media_buttons">
                         <a href="https://www.facebook.com/alex.hamilton.1044">
