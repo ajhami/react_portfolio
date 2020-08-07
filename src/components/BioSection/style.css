@@ -1,3 +1,7 @@
+.bio_pic_div {
+    margin-bottom: 50px;
+}
+
 .bio_photo {
     height: 25.0rem;
     width: 100%;
@@ -13,7 +17,7 @@
 
 .res_btn_section {
     margin-top: 1.5rem;
-    float: right;
+    justify-content: center;
 }
 
 .resume_btn {
@@ -41,3 +45,4 @@
     font-style: none;
     text-decoration: none;
 }
+

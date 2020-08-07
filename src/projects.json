@@ -19,11 +19,29 @@
     },
     {
         "id": 3,
+        "title": "Exercise Wars",
+        "description": "Excercise Wars is a social network designed to help people stay physically active and challenge their friends to fun, creative exercise routines. This project was built as a MERN stack application, utilizing prominent technologies, including React, Redux, Express, Node.js and Amazon S3.",
+        "repoLink": "https://github.com/ajhami/exercise_wars",
+        "appLink": "https://github.com/ajhami/exercise_wars",
+        "appImage": "exercise_wars_preview.PNG",
+        "idTag": "exercise_wars_img"
+    },
+    {
+        "id": 4,
         "title": "Celebrity Twin",
         "description": "Celebrity Twin is an entertainment application where one can upload an image of themself and discover their celebrity doppelgänger! This application demostrates the implentation of basic front-end web design, including html/css, jQuery, and AJAX.",
         "repoLink": "https://github.com/ajhami/celebrity_twin",
         "appLink": "https://ajhami.github.io/celebrity_twin/",
         "appImage": "celeb_preview.PNG",
         "idTag": "celbrity_twin_img"
+    },
+    {
+        "id": 5,
+        "title": "Odd-Man Lineup Optimization",
+        "description": "During the BYU Men's Hockey 2018-2019 season, I worked as the team statistician, recording boxscores and conducting analytical result for the team. Click on the view icon below to see the powerpoint presentation to my findings.",
+        "repoLink": "https://drive.google.com/file/d/1pC7qw_8wJt-6MeX1onCelr-ItfqX2Tm7/view?usp=sharing",
+        "appLink": "https://drive.google.com/file/d/1pC7qw_8wJt-6MeX1onCelr-ItfqX2Tm7/view?usp=sharing",
+        "appImage": "hockey_preview.jpg",
+        "idTag": "hockey_img"
     }
 ]

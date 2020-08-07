@@ -46,6 +46,8 @@
 
     .nav_selects:hover {
         color: #550988;
+        font-weight: bold;
+        text-decoration: none;
     }
 
 }

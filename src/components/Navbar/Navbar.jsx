@@ -27,7 +27,7 @@ function Navbar() {
                 <div className="nav_splits">
                     |
                 </div>
-                <a className="nav_selects" href="/contact">
+                <a className="nav_selects" href="/portfolio">
                     Portfolio
                 </a>
                 <div className="nav_splits">

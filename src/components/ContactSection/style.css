@@ -1,0 +1,18 @@
+input[type="text"], input[type="email"], textarea {
+    color: #000000;
+}
+
+#message {
+    height: 14.7rem;
+}
+
+.send_email_btn {
+    background-color: #541177;
+    border-color: #8539ad;
+    border-radius: 8px;
+    color: #ffffff;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

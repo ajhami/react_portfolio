@@ -14,12 +14,12 @@ function Portfolio() {
             {projects.map(project => {
 
                 // Adding appropriate hr along bottom
-                if (project.id !== 3) {
+                if (project.id < 5) {
 
                     // Alternating between image/description layouts
                     if (project.id % 2 === 1) {
                         return (
-                            <div>
+                            <div key={project.id}>
                                 <ProjectRowLeft
                                     key={project.id}
                                     title={project.title}
@@ -35,7 +35,7 @@ function Portfolio() {
                     }
                     else {
                         return (
-                            <div>
+                            <div key={project.id}>
                                 <ProjectRowRight
                                     key={project.id}
                                     title={project.title}
@@ -55,7 +55,7 @@ function Portfolio() {
                 else {
                     if (project.id % 2 === 1) {
                         return (
-                            <div>
+                            <div key={project.id}>
                                 <ProjectRowLeft
                                     key={project.id}
                                     title={project.title}
@@ -71,7 +71,7 @@ function Portfolio() {
                     }
                     else {
                         return (
-                            <div>
+                            <div key={project.id}>
                                 <ProjectRowRight
                                     key={project.id}
                                     title={project.title}
