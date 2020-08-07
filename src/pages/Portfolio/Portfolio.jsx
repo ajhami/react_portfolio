@@ -6,11 +6,13 @@ import ProjectRowRight from "./../../components/ProjectRowRight";
 // const PROJECTS = process.env.PUBLIC_URL + "/assets/data/projects.json";
 
 import projects from "./../../projects.json";
+import TitleHeader from "../../components/TitleHeader";
 
 function Portfolio() {
 
     return (
         <div>
+            <TitleHeader title="Projects" />
             {projects.map(project => {
 
                 // Adding appropriate hr along bottom

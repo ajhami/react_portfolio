@@ -1,0 +1,15 @@
+.title_hr {
+    background-color: #f3f3f3ec;
+    display: block;
+    height: 1px;
+    margin: auto;
+    margin-bottom: 3.0rem;
+    width: 60%;
+}
+
+
+@media (max-width: 766px) {
+    .title_header_section {
+        justify-content: center;    
+    }
+}

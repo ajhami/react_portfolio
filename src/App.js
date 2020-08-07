@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Navbar />
       <Container>
-        <Route exact path="/react_portfolio" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/react_portfolio" component={Home} />
         <Route exact path="/react_portfolio/home" component={Home} />
         <Route exact path="/react_portfolio/bio" component={Bio} />

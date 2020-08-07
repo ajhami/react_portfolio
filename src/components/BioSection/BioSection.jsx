@@ -35,7 +35,7 @@ function BioSection(props) {
                     <button className="resume_btn">
                         <a
                             className="resume_atag"
-                            href="/home"
+                            href="/react_portfolio/home"
                         >
                             Return to Home
                         </a>
