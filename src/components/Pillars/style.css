@@ -32,8 +32,8 @@
 }
 
 .topic_title {
-    color: #f3f3f3ec;
     background-color: #541177;
+    color: #f3f3f3ec;
     font-size: 1.6rem;
     font-style: unset;
     padding: 1.0rem 1.0rem 1.0rem 0.75rem;
@@ -41,11 +41,15 @@
     bottom: 15.0rem;
 }
 
+.topic_title:hover {
+    background-color: #3f095c;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 @media (min-width: 768px) {
     .home_pillars {
         height: 45.0rem;
-        /* background-color: aquamarine; */
         border: 10px #1d1c1c solid;
     }
 
