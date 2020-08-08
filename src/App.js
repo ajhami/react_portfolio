@@ -10,9 +10,9 @@ import Bio from "./pages/Bio";
 
 function App() {
   return (
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
       <Navbar />
-      {/* <Container> */}
+      <Container>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
-      {/* </Container> */}
+      </Container>
       <Footer />
     </Router>
   );
