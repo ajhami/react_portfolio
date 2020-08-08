@@ -27,7 +27,6 @@ function Pillars() {
             <div
                 id="contact_pillar"
                 className="col-md-4 home_pillars"
-                onClick={() => window.location.href = "/contact"}
             >
                 <NavLink to="/contact" exact>
                     <div id="contact_box" className="inactive home_pillar_box"></div>
