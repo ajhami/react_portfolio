@@ -10,7 +10,6 @@
     width: 60%;
 }
 
-@media (min-width: 550px) {
     .sep_hr {
         background-color: #f3f3f3ec;
         display: block;
@@ -18,4 +17,3 @@
         margin: 4.0rem auto;
         width: 100%;
     }
-}
