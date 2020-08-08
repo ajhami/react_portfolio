@@ -9,7 +9,7 @@ function Navbar() {
                     className="ajh"
                     src={process.env.PUBLIC_URL + "/assets/images/logo/ajh_logo_192x192.png"}
                     alt="ajh_logo"
-                    onClick={() => window.location.href="/react_portfolio"}
+                    onClick={() => window.location.href="/"}
                 />
                 <h2 className="nav_name">
                     <strong>
@@ -21,13 +21,13 @@ function Navbar() {
                 </p>
             </div>
             <div className="col-md-6">
-                <a className="nav_selects" href="/react_portfolio/contact">
+                <a className="nav_selects" href="/contact">
                     Contact
                 </a>
                 <div className="nav_splits">
                     |
                 </div>
-                <a className="nav_selects" href="/react_portfolio/portfolio">
+                <a className="nav_selects" href="/portfolio">
                     Projects
                 </a>
                 <div className="nav_splits">
@@ -39,7 +39,7 @@ function Navbar() {
                 <div className="nav_splits">
                     |
                 </div>
-                <a className="nav_selects" href="/react_portfolio/home">
+                <a className="nav_selects" href="/home">
                     Home
                 </a>
             </div>
