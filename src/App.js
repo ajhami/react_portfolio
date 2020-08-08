@@ -10,7 +10,7 @@ import Bio from "./pages/Bio";
 
 function App() {
   return (
-    <Router history={history} basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Container>
         <Switch>
