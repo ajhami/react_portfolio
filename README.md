@@ -4,6 +4,6 @@ This GitHub Page serves as a professional portfolio to Alexander James Hamilton.
 
 Click [here](https://ajhami.github.io/react_portfolio/) to view the portfolio page.
 
-![AJH_Portfolio](./assets/images/portfolio_screenshot.PNG)
+![AJH_Portfolio](./public/assets/images/portfolio_screenshot.PNG)
 
 © 2020 Alexander James Hamilton. All Rights Reserved.
