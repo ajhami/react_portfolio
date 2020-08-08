@@ -10,14 +10,14 @@ import Bio from "./pages/Bio";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/react_portfolio">
       <Navbar />
       <Container>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/bio" component={Bio} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/projects" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
       </Container>

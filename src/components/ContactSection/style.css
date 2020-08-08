@@ -23,15 +23,21 @@ input[type="text"], input[type="email"], textarea {
 }
 
 .send_email_btn {
-    background-color: #541177;
-    border-color: #8539ad;
-    border-radius: 8px;
-    color: #ffffff;
+    background-color: #3a0058;
+    border: 2px #100218 solid;
+    border-radius: 10px;
+    color: #f3f3f3ec;
     float: right;
+    font-weight: bold;
     margin-right: 3%;
     margin-bottom: 20px;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.send_email_btn:hover {
+    background-color: #1b0029;
+    color: #ffffff;
 }

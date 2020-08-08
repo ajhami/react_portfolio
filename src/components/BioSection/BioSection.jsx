@@ -1,6 +1,6 @@
 import React from "react";
 // import { useHistory } from "react-router-dom";
-// import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "./style.css";
 import SideImage from "../SideImage";
 
@@ -33,12 +33,12 @@ function BioSection(props) {
                         </a>
                     </button>
                     <button className="resume_btn">
-                        <a
+                        <NavLink
                             className="resume_atag"
-                            href="/home"
+                            to="/home"
                         >
                             Return to Home
-                        </a>
+                        </NavLink>
                     </button>
                 </div>
             </div>
